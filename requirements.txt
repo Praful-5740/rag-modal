@@ -1,0 +1,24 @@
+# Core LangChain packages
+langchain
+langchain-core
+langchain-community
+langchain-chroma
+langchain-groq
+langchain-huggingface
+langchain-text-splitters
+
+# Streamlit support
+streamlit
+ipykernel
+
+# PDF parsing
+pypdf
+
+# HTML parsing (if you scrape or parse web content)
+beautifulsoup4
+
+# Vector search backend for Chroma
+chromadb
+
+# Environment variable loading
+python-dotenv
