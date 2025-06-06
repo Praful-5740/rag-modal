@@ -2,6 +2,7 @@
 #  python -m streamlit run pdf-chat.py
 
 import os
+
 import streamlit as st
 from dotenv import load_dotenv
 
@@ -27,7 +28,7 @@ os.environ["HF_TOKEN"] = os.getenv("HF_TOKEN", "")
 # ———— Set up embeddings + Streamlit UI ————
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLm-L6-v2")
 
-st.title("Conversational RAG with PDF Uploads + History")
+st.title("Conversational RAG Modal with PDF Uploads + History")
 st.write("Upload a PDF below and then ask questions about its contents.")
 
 # Step 1: ask for Groq API key and instantiate the LLM

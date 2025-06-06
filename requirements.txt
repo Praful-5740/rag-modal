@@ -22,3 +22,6 @@ chromadb
 
 # Environment variable loading
 python-dotenv
+
+#after Project deployement 
+protobuf
